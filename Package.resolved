@@ -1,0 +1,34 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "JVFloatLabeledTextField",
+        "repositoryURL": "https://github.com/jverdi/JVFloatLabeledTextField.git",
+        "state": {
+          "branch": null,
+          "revision": "c2f5a80a40eaf4c5c4f08a84e69166cd424eb510",
+          "version": "1.2.3"
+        }
+      },
+      {
+        "package": "PhoneNumberKit",
+        "repositoryURL": "https://github.com/marmelroy/PhoneNumberKit.git",
+        "state": {
+          "branch": null,
+          "revision": "1ef0431b971f69c48ca5eb4cdba07f2c5da54c35",
+          "version": "3.3.3"
+        }
+      },
+      {
+        "package": "SnapshotTesting",
+        "repositoryURL": "https://github.com/pointfreeco/swift-snapshot-testing",
+        "state": {
+          "branch": null,
+          "revision": "f8a9c997c3c1dab4e216a8ec9014e23144cbab37",
+          "version": "1.9.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
