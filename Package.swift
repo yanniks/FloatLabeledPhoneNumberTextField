@@ -17,11 +17,11 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
             url: "https://github.com/marmelroy/PhoneNumberKit.git",
-            from: "3.3.3"
+            from: "3.7.6"
         ),
         .package(
             url: "https://github.com/jverdi/JVFloatLabeledTextField.git",
-            from: "1.2.3"
+            from: "1.2.5"
         ),
         .package(
             name: "SnapshotTesting",

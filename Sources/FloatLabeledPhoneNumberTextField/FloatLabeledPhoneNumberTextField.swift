@@ -294,7 +294,10 @@ open class FloatLabeledPhoneNumberTextField: JVFloatLabeledTextField, UITextFiel
     @available(iOS 11.0, *)
     @objc func didPressFlagButton() {
         guard withDefaultPickerUI else { return }
-        let vc = CountryCodePickerViewController(phoneNumberKit: phoneNumberKit)
+        let vc = CountryCodePickerViewController(
+            phoneNumberKit: phoneNumberKit,
+            options: nil
+        )
         vc.delegate = self
         if let nav = containingViewController?.navigationController, !PhoneNumberKit.CountryCodePicker.forceModalPresentation {
             nav.pushViewController(vc, animated: true)
